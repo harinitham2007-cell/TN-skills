@@ -1,0 +1,251 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+
+    margin: 0;
+
+    font-family:
+        Arial,
+        Helvetica,
+        sans-serif;
+
+    background: #f4f7fb;
+
+    color: #172033;
+}
+
+
+.container {
+
+    width: min(950px, 92%);
+
+    margin: auto;
+
+    padding:
+        40px
+        0
+        60px;
+}
+
+
+.hero {
+
+    text-align: center;
+
+    margin-bottom: 28px;
+}
+
+
+.hero h1 {
+
+    font-size: 48px;
+
+    margin:
+        12px
+        0;
+}
+
+
+.hero p {
+
+    max-width: 720px;
+
+    margin: auto;
+
+    color: #5b6475;
+
+    line-height: 1.6;
+}
+
+
+.badge {
+
+    display: inline-block;
+
+    padding:
+        7px
+        12px;
+
+    border-radius: 999px;
+
+    background: #e7ecff;
+
+    font-weight: bold;
+
+    font-size: 13px;
+}
+
+
+.card {
+
+    background: white;
+
+    border-radius: 16px;
+
+    padding: 25px;
+
+    margin-bottom: 22px;
+
+    box-shadow:
+        0 8px 30px
+        rgba(0, 0, 0, 0.07);
+}
+
+
+label {
+
+    display: block;
+
+    font-weight: bold;
+
+    margin:
+        14px
+        0
+        7px;
+}
+
+
+input,
+select,
+textarea {
+
+    width: 100%;
+
+    padding: 12px;
+
+    border:
+        1px solid
+        #d5dae5;
+
+    border-radius: 9px;
+
+    font: inherit;
+}
+
+
+textarea {
+
+    resize: vertical;
+}
+
+
+button {
+
+    margin-top: 18px;
+
+    width: 100%;
+
+    border: 0;
+
+    padding: 13px;
+
+    border-radius: 9px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    background: #3f51b5;
+
+    color: white;
+}
+
+
+button:disabled {
+
+    opacity: 0.6;
+
+    cursor: not-allowed;
+}
+
+
+.hidden {
+
+    display: none;
+}
+
+
+.text-result {
+
+    white-space: pre-wrap;
+
+    line-height: 1.7;
+}
+
+
+.quiz-question,
+.step {
+
+    padding: 16px;
+
+    border:
+        1px solid
+        #e0e4ed;
+
+    border-radius: 10px;
+
+    margin-bottom: 15px;
+}
+
+
+.option {
+
+    padding: 11px;
+
+    border-radius: 7px;
+
+    background: #f5f6f9;
+
+    margin: 8px 0;
+}
+
+
+.option.correct {
+
+    background: #e8f6ec;
+}
+
+
+.error {
+
+    color: #a32020;
+
+    background: #fff0f0;
+
+    padding: 14px;
+
+    border-radius: 8px;
+}
+
+
+#loading {
+
+    margin-bottom: 12px;
+
+    font-weight: bold;
+}
+
+
+@media (max-width: 600px) {
+
+    .container {
+
+        padding-top: 20px;
+    }
+
+
+    .hero h1 {
+
+        font-size: 38px;
+    }
+
+
+    .card {
+
+        padding: 18px;
+    }
+
+}
